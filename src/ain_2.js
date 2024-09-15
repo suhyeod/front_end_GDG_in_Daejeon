@@ -26,7 +26,7 @@ function AnimatedComponent() {
                 <h1>Finally</h1>
             </li>
             <li>
-                <p>디자인이 있는 사람</p>
+                <p>디자인에 관심이 있는 사람</p>
             </li>
             <li>
                 <p></p>
