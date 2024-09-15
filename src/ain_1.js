@@ -24,13 +24,13 @@ function AnimatedComponent() {
             }}>
 
             <li>
-                <h1>Front-End란?</h1>
+                <h1>Front-End Unit</h1>
             </li>
             <li>
-                <p>사용자 인터페이스(UI) 구현</p>
+                <p>HTML / CSS / javascript / React</p>
             </li>
             <li>
-                <p>사용자 경험(UX) 최적화</p>
+                <p>개인프로젝트</p>
             </li>
 
         </motion.div>

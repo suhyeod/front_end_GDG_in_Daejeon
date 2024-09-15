@@ -14,6 +14,7 @@
     height: 100vh;
     flex-direction: column-reverse;
     width: 150px;
+    line-height: 170px;
 }
 
 .navbar li {
@@ -68,10 +69,6 @@ p {
     font-size: 20px;
 }
 
-/* section li:not(.section_1 > ul:first-child > li) {
-  margin: 80px;
-} */
-
 .section_1 h1 {
     text-align: center;
     line-height: 100vh;
@@ -83,16 +80,31 @@ p {
     height: 100vh;
 }
 .about {
-    background-color: rgb(0, 255, 234);
     height: 100vh;
+    line-height: 250px;
+    margin: 0 230px 0;
+    font-size: 70px;
+}
+.about p{
+    font-size: 40px;
+}
+.service {
+    height: 100vh;
+    line-height: 250px;
+    margin: 0 230px 0;
+    font-size: 70px;
 }
 
-.service {
-    background-color: rgb(0, 255, 128);
-    height: 100vh;
+.service p{
+    font-size: 40px;
 }
 
 .contact {
-    background-color: rgb(188, 148, 16);
     height: 100vh;
+    line-height: 250px;
+    margin: 0 230px 0;
+    font-size: 70px;
+}
+.contact p{
+    font-size: 40px;
 }

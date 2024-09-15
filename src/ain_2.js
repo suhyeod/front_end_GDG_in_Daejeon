@@ -22,15 +22,14 @@ function AnimatedComponent() {
                     duration: 1
                 }
             }}>
-
             <li>
-                <h1>Front-End란?</h1>
+                <h1>Finally</h1>
             </li>
             <li>
-                <p>사용자 인터페이스(UI) 구현</p>
+                <p>디자인이 있는 사람</p>
             </li>
             <li>
-                <p>사용자 경험(UX) 최적화</p>
+                <p></p>
             </li>
 
         </motion.div>

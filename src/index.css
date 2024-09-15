@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Gmarket_bold";
+    src: url(./font/GmarketSansTTF/GmarketSansTTFBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Gmarket_Medium";
+    src: url(./font/GmarketSansTTF/GmarketSansTTFMedium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Gmarket_Light";
+    src: url(./font/GmarketSansTTF/GmarketSansTTFLight.ttf);
+    font-weight:lighter;
+}
+
+*{
+    font-family: Gmarket_Medium;
+}
