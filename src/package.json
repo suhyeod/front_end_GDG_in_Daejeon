@@ -6,8 +6,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://suhyeod.github.io/GDG_front_end/",
   "keywords": [],
   "author": "",
   "license": "ISC"
