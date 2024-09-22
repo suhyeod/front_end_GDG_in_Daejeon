@@ -16,7 +16,7 @@ const TypingComponent = () => {
         const timerId = setInterval(() => {
             // currentIndex가 sentence 길이보다 작을 경우에만 상태 업데이트
             if (currentIndex.current < sentence.length) {
-                setWord((prevWord) => prevWord + sentence.charAt(currentIndex.current)); // 인덱스를 안전하게 접근
+                setWord((prevWord) => prevWord + sentence.charAt(currentIndex.current)); 
                 currentIndex.current += 1;
             } else {
                 clearInterval(timerId); // 타이머 종료
